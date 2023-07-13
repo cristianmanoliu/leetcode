@@ -13,7 +13,7 @@ public class IncreasingTripletSubsequence {
     lastKnownMin[1] = nums[0];
     lastKnownMax[nums.length - 2] = nums[nums.length - 1];
 
-    // min
+    // MIN
     for (int i = 2; i < nums.length; i++) {
       int leftValue = nums[i - 1];
       int lastKnownMinValue = lastKnownMin[i - 1];
@@ -24,7 +24,7 @@ public class IncreasingTripletSubsequence {
       }
     }
 
-    // max
+    // MAX
     for (int i = nums.length - 3; i > 0; i--) {
       int rightValue = nums[i + 1];
       int lastKnownMaxValue = lastKnownMax[i + 1];
