@@ -1,6 +1,7 @@
 package cma;
 
 public class MergeStringsAlternately {
+
   public String mergeAlternately(String word1, String word2) {
     if (word1 == null) {
       return word2;

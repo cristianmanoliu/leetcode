@@ -4,7 +4,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-public class MergeStringsAlternatelyTest {
+class MergeStringsAlternatelyTest {
+
   private final MergeStringsAlternately underTest = new MergeStringsAlternately();
 
   @Test

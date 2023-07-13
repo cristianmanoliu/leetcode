@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Set;
 
 public class ReverseVowelsOfAString {
+
   private final Set<String> VOWELS = Set.of("A", "E", "I", "O", "U");
 
   public String reverseVowels(String s) {
