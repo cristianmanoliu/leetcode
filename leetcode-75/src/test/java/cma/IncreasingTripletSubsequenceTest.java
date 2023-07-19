@@ -8,7 +8,6 @@ class IncreasingTripletSubsequenceTest {
 
   private final IncreasingTripletSubsequence underTest = new IncreasingTripletSubsequence();
 
-
   @Test
   void increasingTriplet() {
     assertThat(underTest.increasingTriplet(new int[]{1, 2, 3, 4, 5})).isEqualTo(true);
