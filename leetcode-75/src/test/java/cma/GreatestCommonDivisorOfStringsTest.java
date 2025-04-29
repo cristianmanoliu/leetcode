@@ -1,16 +1,15 @@
 package cma;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class GreatestCommonDivisorOfStringsTest {
+public class GreatestCommonDivisorOfStringsTest {
 
   private final GreatestCommonDivisorOfStrings underTest = new GreatestCommonDivisorOfStrings();
 
   @Test
-  void gcdOfStrings() {
+  public void gcdOfStrings() {
     assertThat(underTest.gcdOfStrings("ABCABC", "ABC"))
         .as("GCDOS between ABCABC and ABC is ABC")
         .isEqualTo("ABC");

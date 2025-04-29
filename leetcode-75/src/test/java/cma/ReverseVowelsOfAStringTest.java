@@ -4,7 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-class ReverseVowelsOfAStringTest {
+public class ReverseVowelsOfAStringTest {
 
   private final ReverseVowelsOfAString underTest = new ReverseVowelsOfAString();
 

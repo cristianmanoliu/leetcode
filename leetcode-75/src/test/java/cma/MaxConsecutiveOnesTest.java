@@ -1,15 +1,15 @@
 package cma;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+public class MaxConsecutiveOnesTest {
 
-class MaxConsecutiveOnesTest {
+  private final MaxConsecutiveOnes underTest = new MaxConsecutiveOnes();
 
-    private final MaxConsecutiveOnes underTest = new MaxConsecutiveOnes();
-
-    @Test
-    void longestOnes() {
-        assertEquals(6, underTest.longestOnes(new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}, 2));
-    }
+  @Test
+  public void longestOnes() {
+    assertEquals(6, underTest.longestOnes(new int[]{1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0}, 2));
+  }
 }

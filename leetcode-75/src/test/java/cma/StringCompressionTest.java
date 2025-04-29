@@ -4,12 +4,12 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-class StringCompressionTest {
+public class StringCompressionTest {
 
   private final StringCompression underTest = new StringCompression();
 
   @Test
-  void compress() {
+  public void compress() {
     assertThat(underTest.compress(new char[]{'a', 'b', 'b', 'c', 'c', 'c'})).isEqualTo(5);
     assertThat(underTest.compress(new char[]{'a', 'a', 'a', 'b', 'b', 'a', 'a'})).isEqualTo(6);
     assertThat(underTest.compress(new char[]{'a', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b', 'b'})).isEqualTo(4);

@@ -4,12 +4,12 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
 import org.junit.jupiter.api.Test;
 
-class IncreasingTripletSubsequenceTest {
+public class IncreasingTripletSubsequenceTest {
 
   private final IncreasingTripletSubsequence underTest = new IncreasingTripletSubsequence();
 
   @Test
-  void increasingTriplet() {
+  public void increasingTriplet() {
     assertThat(underTest.increasingTriplet(new int[]{1, 2, 3, 4, 5})).isEqualTo(true);
     assertThat(underTest.increasingTriplet(new int[]{5, 4, 3, 2, 1})).isEqualTo(false);
     assertThat(underTest.increasingTriplet(new int[]{2, 1, 5, 0, 4, 6})).isEqualTo(true);

@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-class KidsWithTheGreatestNumberOfCandiesTest {
+public class KidsWithTheGreatestNumberOfCandiesTest {
 
   private final KidsWithTheGreatestNumberOfCandies underTest =
       new KidsWithTheGreatestNumberOfCandies();

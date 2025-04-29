@@ -1,6 +1,7 @@
 package cma;
 
 public class CanPlaceFlowers {
+
   public boolean canPlaceFlowers(int[] flowerbed, int n) {
     if (n == 0) {
       return true;
