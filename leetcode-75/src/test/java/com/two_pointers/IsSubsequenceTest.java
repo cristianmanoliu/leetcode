@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 public class IsSubsequenceTest {
 
-  private final IsSubsequence underTest = new IsSubsequence();
+  private final IsSubsequence isSubsequence = new IsSubsequence();
 
   @Test
-  public void isSubsequence() {
-    assertThat(underTest.isSubsequence("aaaaaa", "bbaaaa")).describedAs("aaaaaa in bbaaaa").isFalse();
-    assertThat(underTest.isSubsequence("abc", "ahbgdc")).describedAs("abc in ahbgdc").isTrue();
-    assertThat(underTest.isSubsequence("axc", "ahbgdc")).describedAs("axc in ahbgdc").isFalse();
+  void isSubsequence() {
+    assertThat(isSubsequence.isSubsequence("aaaaaa", "bbaaaa")).describedAs("aaaaaa in bbaaaa").isFalse();
+    assertThat(isSubsequence.isSubsequence("abc", "ahbgdc")).describedAs("abc in ahbgdc").isTrue();
+    assertThat(isSubsequence.isSubsequence("axc", "ahbgdc")).describedAs("axc in ahbgdc").isFalse();
   }
 }

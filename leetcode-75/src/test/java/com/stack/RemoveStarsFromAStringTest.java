@@ -6,10 +6,10 @@ import org.junit.jupiter.api.Test;
 
 public class RemoveStarsFromAStringTest {
 
-  private final RemoveStarsFromAString underTest = new RemoveStarsFromAString();
+  private final RemoveStarsFromAString removeStarsFromAString = new RemoveStarsFromAString();
 
   @Test
-  public void removeStars() {
-    assertEquals("lecoe", underTest.removeStars("leet**cod*e"));
+  void removeStars() {
+    assertEquals("lecoe", removeStarsFromAString.removeStars("leet**cod*e"));
   }
 }

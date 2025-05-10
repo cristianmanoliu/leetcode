@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 public class ReverseWordsInAStringTest {
 
-  private final ReverseWordsInAString underTest = new ReverseWordsInAString();
+  private final ReverseWordsInAString reverseWordsInAString = new ReverseWordsInAString();
 
   @Test
-  public void reverseWords() {
-    assertThat(underTest.reverseWords("the sky is blue")).isEqualTo("blue is sky the");
-    assertThat(underTest.reverseWords("  hello world  ")).isEqualTo("world hello");
-    assertThat(underTest.reverseWords("a good   example")).isEqualTo("example good a");
+  void reverseWords() {
+    assertThat(reverseWordsInAString.reverseWords("the sky is blue")).isEqualTo("blue is sky the");
+    assertThat(reverseWordsInAString.reverseWords("  hello world  ")).isEqualTo("world hello");
+    assertThat(reverseWordsInAString.reverseWords("a good   example")).isEqualTo("example good a");
   }
 }

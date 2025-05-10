@@ -7,11 +7,11 @@ import org.junit.jupiter.api.Test;
 
 public class UniqueNumberOfOccurrencesTest {
 
-  private final UniqueNumberOfOccurrences underTest = new UniqueNumberOfOccurrences();
+  private final UniqueNumberOfOccurrences uniqueNumberOfOccurrences = new UniqueNumberOfOccurrences();
 
   @Test
-  public void uniqueOccurrences() {
-    assertTrue(underTest.uniqueOccurrences(new int[]{1, 2, 2, 1, 1, 3}));
-    assertFalse(underTest.uniqueOccurrences(new int[]{1, 2}));
+  void uniqueOccurrences() {
+    assertTrue(uniqueNumberOfOccurrences.uniqueOccurrences(new int[]{1, 2, 2, 1, 1, 3}));
+    assertFalse(uniqueNumberOfOccurrences.uniqueOccurrences(new int[]{1, 2}));
   }
 }

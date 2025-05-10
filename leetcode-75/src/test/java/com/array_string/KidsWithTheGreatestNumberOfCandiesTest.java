@@ -7,12 +7,11 @@ import org.junit.jupiter.api.Test;
 
 public class KidsWithTheGreatestNumberOfCandiesTest {
 
-  private final KidsWithTheGreatestNumberOfCandies underTest =
-      new KidsWithTheGreatestNumberOfCandies();
+  private final KidsWithTheGreatestNumberOfCandies kidsWithTheGreatestNumberOfCandies = new KidsWithTheGreatestNumberOfCandies();
 
   @Test
-  public void kidsWithCandies() {
-    assertThat(underTest.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3))
-        .isEqualTo(List.of(Boolean.TRUE, Boolean.TRUE, Boolean.TRUE, Boolean.FALSE, Boolean.TRUE));
+  void kidsWithCandies() {
+    assertThat(kidsWithTheGreatestNumberOfCandies.kidsWithCandies(new int[]{2, 3, 5, 1, 3}, 3)).isEqualTo(
+        List.of(Boolean.TRUE, Boolean.TRUE, Boolean.TRUE, Boolean.FALSE, Boolean.TRUE));
   }
 }

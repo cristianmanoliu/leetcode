@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 class MoveZeroesTest {
 
-  private final MoveZeroes underTest = new MoveZeroes();
+  private final MoveZeroes moveZeroes = new MoveZeroes();
 
   @Test
-  public void moveZeroes() {
+  void moveZeroes() {
     int[] testArr = new int[]{0, 1, 0, 3, 12};
-    underTest.moveZeroes(testArr);
+    moveZeroes.moveZeroes(testArr);
     assertThat(testArr).isEqualTo(new int[]{1, 3, 12, 0, 0});
   }
 

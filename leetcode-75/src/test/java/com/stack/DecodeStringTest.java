@@ -6,11 +6,10 @@ import org.junit.jupiter.api.Test;
 
 public class DecodeStringTest {
 
-  private final DecodeString underTest = new DecodeString();
+  private final DecodeString decodeString = new DecodeString();
 
   @Test
-  public void decodeString() {
-    assertEquals("aaabcbc", underTest.decodeString("3[a]2[bc]"));
-
+  void decodeString() {
+    assertEquals("aaabcbc", decodeString.decodeString("3[a]2[bc]"));
   }
 }

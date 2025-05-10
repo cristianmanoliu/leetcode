@@ -1,15 +1,16 @@
 package com.stack;
 
-import org.junit.jupiter.api.Assertions;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+
 import org.junit.jupiter.api.Test;
 
 public class AsteroidCollisionTest {
 
-  private final AsteroidCollision underTest = new AsteroidCollision();
+  private final AsteroidCollision asteroidCollision = new AsteroidCollision();
 
   @Test
-  public void asteroidCollision() {
-    Assertions.assertArrayEquals(new int[]{10}, underTest.asteroidCollision(new int[]{10, 2, -5}));
-    Assertions.assertArrayEquals(new int[]{5, 10}, underTest.asteroidCollision(new int[]{5, 10, -5}));
+  void asteroidCollision() {
+    assertArrayEquals(new int[]{10}, asteroidCollision.asteroidCollision(new int[]{10, 2, -5}));
+    assertArrayEquals(new int[]{5, 10}, asteroidCollision.asteroidCollision(new int[]{5, 10, -5}));
   }
 }

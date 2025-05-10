@@ -6,12 +6,12 @@ import org.junit.jupiter.api.Test;
 
 public class MaxNumberOfKSumPairsTest {
 
-  private final MaxNumberOfKSumPairs underTest = new MaxNumberOfKSumPairs();
+  private final MaxNumberOfKSumPairs maxNumberOfKSumPairs = new MaxNumberOfKSumPairs();
 
   @Test
-  public void maxOperations() {
-    assertThat(underTest.maxOperations(new int[]{2, 2, 2, 3, 1, 1, 4, 1}, 4)).isEqualTo(2);
-    assertThat(underTest.maxOperations(new int[]{1, 2, 3, 4}, 5)).isEqualTo(2);
-    assertThat(underTest.maxOperations(new int[]{3, 1, 3, 4, 3}, 6)).isEqualTo(1);
+  void maxOperations() {
+    assertThat(maxNumberOfKSumPairs.maxOperations(new int[]{2, 2, 2, 3, 1, 1, 4, 1}, 4)).isEqualTo(2);
+    assertThat(maxNumberOfKSumPairs.maxOperations(new int[]{1, 2, 3, 4}, 5)).isEqualTo(2);
+    assertThat(maxNumberOfKSumPairs.maxOperations(new int[]{3, 1, 3, 4, 3}, 6)).isEqualTo(1);
   }
 }

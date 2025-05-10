@@ -6,11 +6,11 @@ import org.junit.jupiter.api.Test;
 
 public class ReverseVowelsOfAStringTest {
 
-  private final ReverseVowelsOfAString underTest = new ReverseVowelsOfAString();
+  private final ReverseVowelsOfAString reverseVowelsOfAString = new ReverseVowelsOfAString();
 
   @Test
-  public void reverseVowels() {
-    assertThat(underTest.reverseVowels("hello")).isEqualTo("holle");
-    assertThat(underTest.reverseVowels("leetcode")).isEqualTo("leotcede");
+  void reverseVowels() {
+    assertThat(reverseVowelsOfAString.reverseVowels("hello")).isEqualTo("holle");
+    assertThat(reverseVowelsOfAString.reverseVowels("leetcode")).isEqualTo("leotcede");
   }
 }
