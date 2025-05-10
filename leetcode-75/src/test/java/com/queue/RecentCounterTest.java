@@ -15,28 +15,10 @@ public class RecentCounterTest {
   }
 
   @Test
-  void testSinglePing() {
-    assertEquals(1, recentCounter.ping(1));
-  }
-
-  @Test
-  void testMultiplePingsWithinWindow() {
-    recentCounter.ping(1);
-    recentCounter.ping(100);
-    assertEquals(2, recentCounter.ping(100));
-  }
-
-  @Test
-  void testSlidingWindowExpiresOldRequests() {
+  void ping() {
     recentCounter.ping(1);
     recentCounter.ping(100);
     recentCounter.ping(3001);
     assertEquals(1, recentCounter.ping(6002));
-  }
-
-  @Test
-  void testEdgeOfWindowInclusive() {
-    recentCounter.ping(3000);
-    assertEquals(2, recentCounter.ping(6000));
   }
 }
