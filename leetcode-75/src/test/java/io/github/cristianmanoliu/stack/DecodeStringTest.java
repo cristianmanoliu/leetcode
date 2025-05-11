@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.stack.DecodeString;
 import org.junit.jupiter.api.Test;
 
-public class DecodeStringTest {
+class DecodeStringTest {
 
   private final DecodeString decodeString = new DecodeString();
 

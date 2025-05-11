@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import io.github.cristianmanoliu.hashmap_set.DetermineIfTwoStringsAreClose;
 import org.junit.jupiter.api.Test;
 
-public class DetermineIfTwoStringsAreCloseTest {
+class DetermineIfTwoStringsAreCloseTest {
 
   private final DetermineIfTwoStringsAreClose determineIfTwoStringsAreClose = new DetermineIfTwoStringsAreClose();
 

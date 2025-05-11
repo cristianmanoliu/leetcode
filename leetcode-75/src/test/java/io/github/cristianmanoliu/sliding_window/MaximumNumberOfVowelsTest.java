@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.sliding_window.MaximumNumberOfVowels;
 import org.junit.jupiter.api.Test;
 
-public class MaximumNumberOfVowelsTest {
+class MaximumNumberOfVowelsTest {
 
   private final MaximumNumberOfVowels maximumNumberOfVowels = new MaximumNumberOfVowels();
 

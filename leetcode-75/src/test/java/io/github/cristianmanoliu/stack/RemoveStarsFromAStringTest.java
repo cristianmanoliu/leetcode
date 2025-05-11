@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.stack.RemoveStarsFromAString;
 import org.junit.jupiter.api.Test;
 
-public class RemoveStarsFromAStringTest {
+class RemoveStarsFromAStringTest {
 
   private final RemoveStarsFromAString removeStarsFromAString = new RemoveStarsFromAString();
 

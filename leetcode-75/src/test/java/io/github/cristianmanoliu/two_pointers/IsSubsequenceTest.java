@@ -5,7 +5,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import io.github.cristianmanoliu.two_pointers.IsSubsequence;
 import org.junit.jupiter.api.Test;
 
-public class IsSubsequenceTest {
+class IsSubsequenceTest {
 
   private final IsSubsequence isSubsequence = new IsSubsequence();
 

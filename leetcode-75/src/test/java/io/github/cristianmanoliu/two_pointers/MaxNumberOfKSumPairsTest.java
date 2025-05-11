@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.two_pointers.MaxNumberOfKSumPairs;
 import org.junit.jupiter.api.Test;
 
-public class MaxNumberOfKSumPairsTest {
+class MaxNumberOfKSumPairsTest {
 
   private final MaxNumberOfKSumPairs maxNumberOfKSumPairs = new MaxNumberOfKSumPairs();
 

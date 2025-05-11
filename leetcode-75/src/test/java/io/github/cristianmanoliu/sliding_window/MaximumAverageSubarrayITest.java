@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.sliding_window.MaximumAverageSubarrayI;
 import org.junit.jupiter.api.Test;
 
-public class MaximumAverageSubarrayITest {
+class MaximumAverageSubarrayITest {
 
   private final MaximumAverageSubarrayI maximumAverageSubarrayI = new MaximumAverageSubarrayI();
 

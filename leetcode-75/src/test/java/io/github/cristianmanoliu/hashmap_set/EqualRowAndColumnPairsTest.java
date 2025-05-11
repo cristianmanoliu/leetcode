@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.hashmap_set.EqualRowAndColumnPairs;
 import org.junit.jupiter.api.Test;
 
-public class EqualRowAndColumnPairsTest {
+class EqualRowAndColumnPairsTest {
 
   private final EqualRowAndColumnPairs equalRowAndColumnPairs = new EqualRowAndColumnPairs();
 

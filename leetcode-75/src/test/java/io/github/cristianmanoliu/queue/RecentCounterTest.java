@@ -2,11 +2,10 @@ package io.github.cristianmanoliu.queue;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-import io.github.cristianmanoliu.queue.RecentCounter;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-public class RecentCounterTest {
+class RecentCounterTest {
 
   private RecentCounter recentCounter;
 

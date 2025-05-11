@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.array_string.GreatestCommonDivisorOfStrings;
 import org.junit.jupiter.api.Test;
 
-public class GreatestCommonDivisorOfStringsTest {
+class GreatestCommonDivisorOfStringsTest {
 
   private final GreatestCommonDivisorOfStrings greatestCommonDivisorOfStrings = new GreatestCommonDivisorOfStrings();
 

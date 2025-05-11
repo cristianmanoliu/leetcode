@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import io.github.cristianmanoliu.hashmap_set.UniqueNumberOfOccurrences;
 import org.junit.jupiter.api.Test;
 
-public class UniqueNumberOfOccurrencesTest {
+class UniqueNumberOfOccurrencesTest {
 
   private final UniqueNumberOfOccurrences uniqueNumberOfOccurrences = new UniqueNumberOfOccurrences();
 

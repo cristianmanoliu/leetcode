@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.sliding_window.LongestSubArrayOf1sAfterDeletingOneElement;
 import org.junit.jupiter.api.Test;
 
-public class LongestSubArrayOf1sAfterDeletingOneElementTest {
+class LongestSubArrayOf1sAfterDeletingOneElementTest {
 
   private final LongestSubArrayOf1sAfterDeletingOneElement longestSubArrayOf1sAfterDeletingOneElement = new LongestSubArrayOf1sAfterDeletingOneElement();
 

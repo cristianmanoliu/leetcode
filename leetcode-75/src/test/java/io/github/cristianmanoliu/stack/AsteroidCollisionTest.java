@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import io.github.cristianmanoliu.stack.AsteroidCollision;
 import org.junit.jupiter.api.Test;
 
-public class AsteroidCollisionTest {
+class AsteroidCollisionTest {
 
   private final AsteroidCollision asteroidCollision = new AsteroidCollision();
 

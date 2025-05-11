@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.array_string.ProductOfArrayExceptSelf;
 import org.junit.jupiter.api.Test;
 
-public class ProductOfArrayExceptSelfTest {
+class ProductOfArrayExceptSelfTest {
 
   private final ProductOfArrayExceptSelf productOfArrayExceptSelf = new ProductOfArrayExceptSelf();
 

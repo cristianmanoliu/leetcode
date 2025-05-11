@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.array_string.ReverseWordsInAString;
 import org.junit.jupiter.api.Test;
 
-public class ReverseWordsInAStringTest {
+class ReverseWordsInAStringTest {
 
   private final ReverseWordsInAString reverseWordsInAString = new ReverseWordsInAString();
 

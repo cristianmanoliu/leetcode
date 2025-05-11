@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.prefix_sum.FindPivotIndex;
 import org.junit.jupiter.api.Test;
 
-public class FindPivotIndexTest {
+class FindPivotIndexTest {
 
   private final FindPivotIndex findPivotIndex = new FindPivotIndex();
 

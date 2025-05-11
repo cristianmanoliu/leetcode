@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.two_pointers.ContainerWithMostWater;
 import org.junit.jupiter.api.Test;
 
-public class ContainerWithMostWaterTest {
+class ContainerWithMostWaterTest {
 
   private final ContainerWithMostWater containerWithMostWater = new ContainerWithMostWater();
 

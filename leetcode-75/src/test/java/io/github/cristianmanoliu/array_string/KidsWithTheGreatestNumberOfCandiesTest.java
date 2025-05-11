@@ -6,7 +6,7 @@ import io.github.cristianmanoliu.array_string.KidsWithTheGreatestNumberOfCandies
 import java.util.List;
 import org.junit.jupiter.api.Test;
 
-public class KidsWithTheGreatestNumberOfCandiesTest {
+class KidsWithTheGreatestNumberOfCandiesTest {
 
   private final KidsWithTheGreatestNumberOfCandies kidsWithTheGreatestNumberOfCandies = new KidsWithTheGreatestNumberOfCandies();
 

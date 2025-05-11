@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import io.github.cristianmanoliu.array_string.StringCompression;
 import org.junit.jupiter.api.Test;
 
-public class StringCompressionTest {
+class StringCompressionTest {
 
   private final StringCompression stringCompression = new StringCompression();
 

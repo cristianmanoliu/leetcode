@@ -5,7 +5,7 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import io.github.cristianmanoliu.array_string.IncreasingTripletSubsequence;
 import org.junit.jupiter.api.Test;
 
-public class IncreasingTripletSubsequenceTest {
+class IncreasingTripletSubsequenceTest {
 
   private final IncreasingTripletSubsequence increasingTripletSubsequence = new IncreasingTripletSubsequence();
 

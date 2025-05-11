@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import io.github.cristianmanoliu.prefix_sum.FindTheHighestAltitude;
 import org.junit.jupiter.api.Test;
 
-public class FindTheHighestAltitudeTest {
+class FindTheHighestAltitudeTest {
 
   private final FindTheHighestAltitude findTheHighestAltitude = new FindTheHighestAltitude();
 
